@@ -14,7 +14,6 @@ if (process.env.NODE_ENV === "development") {
   const el = document.getElementById("dev-products");
   // used for running this MFE as a standalone app
   if (el) {
-    console.log("myrrr")
     mount(el);
   }
 }
